@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "c47ab687f6c3cb9fd972f157578ced25"
+build_time: [521165934, 240279000]
+inputs:
+  "/Users/setiyadi/Projects/Xcode/CodeTest-303Software/Carthage/Checkouts/SwiftyJSON/Source/SwiftyJSON.swift": [9223372036854775807, 0]
