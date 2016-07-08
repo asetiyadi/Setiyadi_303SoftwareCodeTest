@@ -7,15 +7,15 @@ provides-member:
 - ["V20CodeTest_303Software13DataModelView", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "DataModelView"
-- !private "JSON"
-- "BooleanLiteralType"
 - !private "Alamofire"
-- "Array"
-- "Person"
+- !private "StringLiteralType"
 - "Bool"
 - "Void"
-- !private "StringLiteralType"
+- "DataModelView"
+- !private "JSON"
+- "Person"
+- "BooleanLiteralType"
+- "Array"
 depends-member:
 - !private ["Ps9AnyObject", "responseJSON"]
 - !private ["Ps9AnyObject", "validate"]

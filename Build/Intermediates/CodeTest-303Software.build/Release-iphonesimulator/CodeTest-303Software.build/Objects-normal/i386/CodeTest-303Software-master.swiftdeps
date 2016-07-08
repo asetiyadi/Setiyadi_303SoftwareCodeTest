@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "f5e7d1d83f70bdbd8c3a167f850df203"
+build_time: [521300317, 952414000]
+inputs:
+  "/Users/setiyadi/Projects/Xcode/CodeTest-303Software/CodeTest-303Software/Person.swift": [521166966, 0]
+  "/Users/setiyadi/Projects/Xcode/CodeTest-303Software/CodeTest-303Software/DataModelView.swift": [521167317, 0]
+  "/Users/setiyadi/Projects/Xcode/CodeTest-303Software/CodeTest-303Software/AppDelegate.swift": [521165644, 0]
+  "/Users/setiyadi/Projects/Xcode/CodeTest-303Software/CodeTest-303Software/ListTableViewController.swift": [521300316, 0]

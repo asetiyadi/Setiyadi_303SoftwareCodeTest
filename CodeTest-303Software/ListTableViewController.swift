@@ -47,10 +47,10 @@ class ListTableViewController: UITableViewController {
     // MARK: Helper
     
     func getList() {
-        modelView.getNameList { (success, data) in
+        modelView.getNameList { [weak self] (success, data) in
             if (success) {
-                self.arrPerson = data
-                self.tableView.reloadData()
+                self?.arrPerson = data
+                self?.tableView.reloadData()
             }
             else {
                 let alertController = UIAlertController(title: "Ouch!", message: "There is a problem retrieving data", preferredStyle: UIAlertControllerStyle.Alert)
@@ -58,9 +58,8 @@ class ListTableViewController: UITableViewController {
                 let alertAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil)
                 alertController.addAction(alertAction)
                 
-                self.presentViewController(alertController, animated: true, completion: nil)
+                self?.presentViewController(alertController, animated: true, completion: nil)
             }
         }
     }
-    
 }

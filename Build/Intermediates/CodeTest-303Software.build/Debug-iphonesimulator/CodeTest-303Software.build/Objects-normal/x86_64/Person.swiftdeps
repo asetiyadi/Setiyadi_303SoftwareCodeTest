@@ -8,7 +8,6 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "String"
-- "StringLiteralType"
 - "Person"
 depends-member:
 - ["V20CodeTest_303Software6Person", "String"]
@@ -36,4 +35,4 @@ depends-external:
 - "/Users/setiyadi/Projects/Xcode/CodeTest-303Software/Carthage/Build/iOS/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
 - "/Users/setiyadi/Projects/Xcode/CodeTest-303Software/Carthage/Build/iOS/SwiftyJSON.framework/Headers/SwiftyJSON.h"
 - "/Users/setiyadi/Projects/Xcode/CodeTest-303Software/Carthage/Build/iOS/SwiftyJSON.framework/Modules/module.modulemap"
-interface-hash: "1cf4ba84c9b0dd4966c5ec579448052a"
+interface-hash: "9c410384bc1f9a16fb7d32e3c1dbb065"
